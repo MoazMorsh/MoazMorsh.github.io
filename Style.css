@@ -673,3 +673,86 @@ span{
     transform: scale(1.05);
 }
 
+
+ /*style for Certificates.html*/
+
+ .certificates {
+    padding: 10rem 9%;
+    background: var(--second-bg-color);
+}
+
+.certificates-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.certificates-item {
+    background: var(--bg-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.certificates-item img {
+    max-width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.certificates-item h3 {
+    font-size: 2.4rem;
+    margin: 1.5rem 0;
+}
+
+.certificates-item p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.certificates-item:hover {
+    transform: scale(1.05);
+}
+
+
+ /*style for programming.html*/
+
+ .programming {
+    padding: 10rem 9%;
+    background: var(--second-bg-color);
+}
+
+.programming-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.programming-item {
+    background: var(--bg-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.programming-item img {
+    max-width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.programming-item h3 {
+    font-size: 2.4rem;
+    margin: 1.5rem 0;
+}
+
+.programming-item p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.programming-item:hover {
+    transform: scale(1.05);
+}
